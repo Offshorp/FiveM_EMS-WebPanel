@@ -1,0 +1,46 @@
+header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 250px;
+	background-color: rgb(255,255,255);
+  border: 1px solid rgb(200,200,200);
+	height: 99.75vh;
+}
+header img#header-icon {
+	position: absolute;
+  width: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 20px;
+}
+header div.nav {
+	position: relative;
+  width: 250px;
+	top: 10%;
+}
+header div.nav a {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0,0,0);
+	font-size: 20px;
+	text-transform: uppercase;
+}
+header div.nav a:hover {
+	background-color: rgb(200,200,200);
+}
+header div.nav a.active {
+	background-color: rgb(225,225,225);
+}
+header div.nav a.active:hover {
+	background-color: rgb(200,200,200);
+}
+footer {
+  position: absolute;
+  display: block;
+  bottom: 0;
+  margin: 5px;
+  text-align: left;
+}
