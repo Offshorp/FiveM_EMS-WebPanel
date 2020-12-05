@@ -1,7 +1,8 @@
 <?php
-  session_start();
   require './assets/includes/core.php';
-
+  if(!$registration) {
+    header("Location: ./");
+  };
   if(!isset($_SESSION["id"])){
 ?>
 <html lang=<?php echo '"'.$site_lang.'"'; ?>>

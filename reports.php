@@ -1,5 +1,4 @@
 <?php
-  session_start();
   require './assets/includes/core.php';
 
   if(isset($_SESSION["id"])){

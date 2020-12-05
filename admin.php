@@ -1,5 +1,4 @@
 <?php
-  session_start();
   require './assets/includes/core.php';
 
   $admin_users = $db__conn->prepare("SELECT * FROM users WHERE id = ?");

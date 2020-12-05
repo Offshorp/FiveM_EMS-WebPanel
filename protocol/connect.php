@@ -14,10 +14,17 @@
 
     if($userexist == 1){
       $userinfo = $loguser->fetch();
-      $_SESSION['id'] = $userinfo['id'];
-      $_SESSION['user'] = $userinfo['username'];
 
-      header('Location: ../home');
+      if($userinfo['is_activated'] == 1){
+        $_SESSION['id'] = $userinfo['id'];
+        $_SESSION['user'] = $userinfo['username'];
+        
+        header('Location: ../home');
+      }else{
+        echo "Your account is not activated";
+      };
+
+
     }else{
       echo "This account don't exist";
     };

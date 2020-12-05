@@ -31,5 +31,16 @@
     "Log out"
   ];
 
+  $staff = [
+    "Paramedics",
+    "Doctors",
+    "Chief Doctors",
+    "Surgeons",
+    "Heads of Service",
+    "Direction"
+  ];
+
+  $staff_error = "There is no";
+
   $allrigts = "All rights reserved.";
 ?>

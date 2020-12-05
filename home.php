@@ -1,5 +1,4 @@
 <?php
-  session_start();
   require './assets/includes/core.php';
 
   if(isset($_SESSION["id"])){
@@ -26,7 +25,7 @@
 <body>
   <?php include "./assets/includes/static/header.php"; ?>
   <section id="home">
-    Test
+    
   </section>
   <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>

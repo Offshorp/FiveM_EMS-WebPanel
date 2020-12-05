@@ -36,5 +36,16 @@
     "Déconnexion"
   ];
 
+  $staff = [
+    "Ambulanciers",
+    "Médecins",
+    "Medecin-Chefs",
+    "Chirurgiens",
+    "Chefs de Service",
+    "Direction"
+  ];
+
+  $staff_error = "Il n'y a pas de";
+
   $allrigts = "Tous droits réservés.";
 ?>

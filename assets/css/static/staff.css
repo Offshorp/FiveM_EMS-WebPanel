@@ -1,7 +1,67 @@
 section#staff {
-  display: flex;
-	justify-content: center;
-	align-items: center;
 	height: 100vh;
   margin-left: 250px;
+}
+div.box {
+  width: 80%;
+  margin-left: 10%;
+  padding: 10px;
+  background: rgb(255,255,255);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  float: left;
+  border: 1px solid rgb(200,200,200);
+}
+span.title {
+  background: transparent;
+  text-transform: uppercase;
+  padding: 5px;
+  border-bottom: 1px solid rgb(200,200,200);
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  letter-spacing: 2px;
+}
+div.error {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+div#view {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+div.view {
+  float: left;
+  margin-right: 10px;
+  width: 160px;
+  margin-top: 10px;
+  border: 1px solid rgb(200,200,200);
+  padding: 10px;
+  border-radius: 3px;
+}
+div#logo {
+  border-radius: 100%;
+  height: 115px;
+  width: 115px;
+  overflow: hidden;
+  border: 1px solid rgb(200,200,200);
+  margin-bottom: 5px;
+}
+img.logo {
+  height: 100px;
+  width: 100px;
+  top: 15px;
+  position: relative;
+}
+div.name, div.job, div.phone {
+  float: left;
+  padding: 10px;
+  border: 1px solid rgb(200,200,200);
+  text-align: center;
+  border-radius: 3px;
+  width: calc(100% - 20px);
+  margin-top: 5px
 }
